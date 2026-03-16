@@ -1,0 +1,20 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Sheet1","Sheet1 (2)","Sheet1 (3)"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Sheet1 (3)'
+ref table DateTableTemplate_727c374e-4e4b-4e91-9fbc-c91d11ddecb3
+ref table LocalDateTable_d91d726d-ff7b-4ab3-a390-3d2d7e7f03fd
+
+ref cultureInfo fr-FR
+

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "3ceebcccb307005c4695",
+  "position": {
+    "x": 81.9297826606162,
+    "y": 412.09457845712922,
+    "z": 1000,
+    "height": 294.70265106281346,
+    "width": 495.24719369476952,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1 (3)"
+                    }
+                  },
+                  "Property": "Attachement"
+                }
+              },
+              "queryRef": "Sheet1 (3).Attachement",
+              "nativeQueryRef": "Attachement",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1 (3)"
+                        }
+                      },
+                      "Property": "Num fiche"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1 (3).Num fiche)",
+              "nativeQueryRef": "Nombre de Num fiche"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Sheet1 (3)"
+                      }
+                    },
+                    "Property": "Num fiche"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

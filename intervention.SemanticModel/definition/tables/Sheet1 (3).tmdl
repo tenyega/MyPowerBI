@@ -1,0 +1,197 @@
+table 'Sheet1 (3)'
+	lineageTag: b508b760-6f82-4ff3-afc4-b95bec7a6fe0
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 02df0a0a-6060-47fc-a51b-c908b5ea833c
+		summarizeBy: count
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: df4e6ce1-5e35-4b16-8714-85f22851914e
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 7ef4de6d-3454-4554-8ac7-421e92023345
+			defaultHierarchy: LocalDateTable_d91d726d-ff7b-4ab3-a390-3d2d7e7f03fd.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Heure
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 9ac0b046-409f-4131-a866-a483d2552a15
+		summarizeBy: none
+		sourceColumn: Heure
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column Ste
+		dataType: string
+		lineageTag: b9b45deb-6b89-4292-8004-fe8ac04c130e
+		summarizeBy: none
+		sourceColumn: Ste
+
+		annotation SummarizationSetBy = Automatic
+
+	column Attachement
+		dataType: string
+		lineageTag: 32b06126-410d-42af-b57b-6b4a2c950b4b
+		summarizeBy: none
+		sourceColumn: Attachement
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nom
+		dataType: string
+		lineageTag: d07c8770-e929-4d97-8472-ba5260c36faf
+		summarizeBy: none
+		sourceColumn: Nom
+
+		annotation SummarizationSetBy = Automatic
+
+	column Prénom
+		dataType: string
+		lineageTag: 32ce4c48-34f5-474a-91df-ccb13f4855f8
+		summarizeBy: none
+		sourceColumn: Prénom
+
+		annotation SummarizationSetBy = Automatic
+
+	column Chien
+		dataType: string
+		lineageTag: 92f8c490-c31a-451a-a0b6-6ba5d0e0a1a5
+		summarizeBy: none
+		sourceColumn: Chien
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Heure contact PC'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: e259f985-246a-44ad-a775-c5c15108a6ee
+		summarizeBy: none
+		sourceColumn: Heure contact PC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Num fiche'
+		dataType: string
+		lineageTag: d7f55824-c190-4775-96a5-ce738c4839ca
+		summarizeBy: none
+		sourceColumn: Num fiche
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ligne
+		dataType: string
+		lineageTag: f60b5e5a-46e7-44ea-9e88-fb8b0e23b335
+		summarizeBy: none
+		sourceColumn: Ligne
+
+		annotation SummarizationSetBy = Automatic
+
+	column Station
+		dataType: string
+		lineageTag: 0339cea8-0377-4789-8b0a-151ae3e2bcf7
+		summarizeBy: none
+		sourceColumn: Station
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type colis'
+		dataType: string
+		lineageTag: 6fa5cdde-ffb1-4b3a-85cd-a7da7dc22095
+		summarizeBy: none
+		sourceColumn: Type colis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Appel sur place'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 22fc8835-66e5-4e53-9df7-d3785e42af4d
+		summarizeBy: none
+		sourceColumn: Appel sur place
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Localisation colis'
+		dataType: string
+		lineageTag: d3cb5202-88f4-4463-876f-0b9a9f373708
+		summarizeBy: none
+		sourceColumn: Localisation colis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Olfaction
+		dataType: string
+		lineageTag: 9fd5fc62-fb4d-4ff4-9794-9343746f237e
+		summarizeBy: none
+		sourceColumn: Olfaction
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Résultat olfaction'
+		dataType: string
+		lineageTag: 78d29af8-1c6c-4574-bb33-c5d01c342f71
+		summarizeBy: none
+		sourceColumn: Résultat olfaction
+
+		annotation SummarizationSetBy = Automatic
+
+	column Commentaire
+		dataType: string
+		lineageTag: 9f39ca89-76d2-4a34-8e1e-1abb45b4ec9c
+		summarizeBy: none
+		sourceColumn: Commentaire
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Heure annulation'
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 9ce53b7d-928d-4900-b370-61f9c848d6d9
+		summarizeBy: none
+		sourceColumn: Heure annulation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column 'Cause annulation'
+		dataType: string
+		lineageTag: ea51b3aa-32ec-4162-a031-b9e14a2d32ae
+		summarizeBy: none
+		sourceColumn: Cause annulation
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Sheet1 (3)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\mdolm\Downloads\Interventions.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"ID", Int64.Type}, {"Date", type date}, {"Heure", type time}, {"Ste", type text}, {"Attachement", type text}, {"Nom", type text}, {"Prénom", type text}, {"Chien", type text}, {"Heure contact PC", type time}, {"Num fiche", type any}, {"Ligne", type any}, {"Station", type text}, {"Type colis", type text}, {"Appel sur place", type time}, {"Localisation colis", type text}, {"Olfaction", type text}, {"Résultat olfaction", type text}, {"Commentaire", type text}, {"Heure annulation", type time}, {"Cause annulation", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

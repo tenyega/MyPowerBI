@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "4f76343803819341c5c8",
+  "position": {
+    "x": 682,
+    "y": 0,
+    "z": 1000,
+    "height": 671,
+    "width": 598,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "ribbonChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1 (3)"
+                    }
+                  },
+                  "Property": "Résultat olfaction"
+                }
+              },
+              "queryRef": "Sheet1 (3).Résultat olfaction",
+              "nativeQueryRef": "Nombre de Résultat olfaction",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1 (3)"
+                        }
+                      },
+                      "Property": "Olfaction"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1 (3).Olfaction)",
+              "nativeQueryRef": "Nombre de Olfaction"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Sheet1 (3)"
+                      }
+                    },
+                    "Property": "Olfaction"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

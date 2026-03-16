@@ -1,0 +1,108 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "1fdfa5a4150245d99d8a",
+  "position": {
+    "x": 639.541437783616,
+    "y": 397.42058753283976,
+    "z": 3000,
+    "height": 322.82780033436831,
+    "width": 557.61165512299976,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "lineStackedColumnComboChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1 (3)"
+                    }
+                  },
+                  "Property": "Nom"
+                }
+              },
+              "queryRef": "Sheet1 (3).Nom",
+              "nativeQueryRef": "Nom",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1 (3)"
+                    }
+                  },
+                  "Property": "Prénom"
+                }
+              },
+              "queryRef": "Sheet1 (3).Prénom",
+              "nativeQueryRef": "Prénom",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1 (3)"
+                        }
+                      },
+                      "Property": "Commentaire"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1 (3).Commentaire)",
+              "nativeQueryRef": "Nombre de Commentaire"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Sheet1 (3)"
+                  }
+                },
+                "Property": "Nom"
+              }
+            },
+            "direction": "Ascending"
+          },
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Sheet1 (3)"
+                  }
+                },
+                "Property": "Prénom"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

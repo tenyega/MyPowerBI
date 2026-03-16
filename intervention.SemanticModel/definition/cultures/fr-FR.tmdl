@@ -1,0 +1,2111 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "Sheet1_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sheet1 (3)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "Sheet1_3.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "Sheet1_3.date.hiérarchie_de_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hiérarchie de date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hiérarchie de moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hiérarchie de period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.date.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period année": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.date.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period mois": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.date.jour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hiérarchie de dates",
+			          "HierarchyLevel": "Jour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date jour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period jour": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.heure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Heure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "heure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "Sheet1_3.ste": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Ste"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ste": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.attachement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Attachement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attachement": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.nom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Nom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nom": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.prénom": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Prénom"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prénom": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.chien": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Chien"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chien": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.heure_contact_PC": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Heure contact PC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "heure contact PC": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "heure connection pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "heure interaction pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "heure phone pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure telephone pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure communication pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure e-mail pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure link pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure reach pc": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "heure contact processer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "heure contact processor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "Sheet1_3.num_fiche": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Num fiche"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num fiche": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number fiche": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.ligne": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Ligne"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ligne": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.station": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Station"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "station": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "posting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.type_coli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Type colis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "type coli": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coli": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "category coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "genre coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "manner coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "variety coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "brand coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "kind coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "style coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "form coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grouping coli": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.appel_sur_place": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Appel sur place"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "appel sur place": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "appel sur residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "appel sur apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "appel sur habitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "appel sur home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur domicile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur abode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur housing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appel sur house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "Sheet1_3.localisation_coli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Localisation colis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "localisation coli": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coli": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.olfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Olfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "olfaction": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.résultat_olfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Résultat olfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "résultat olfaction": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.commentaire": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Commentaire"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "commentaire": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "Sheet1_3.heure_annulation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Heure annulation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "heure annulation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "Sheet1_3.cause_annulation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sheet1 (3)",
+			          "ConceptualProperty": "Cause annulation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cause annulation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annulation": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "Sheet1_3_is_named_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.ID": {
+			          "Target": {
+			            "Entity": "Sheet1_3.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Name": {
+			              "Role": "Sheet1_3.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_Sheet1_3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_ID"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_dates"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_heure": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.heure": {
+			          "Target": {
+			            "Entity": "Sheet1_3.heure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.heure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_heures"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_ste": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.ste": {
+			          "Target": {
+			            "Entity": "Sheet1_3.ste"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.ste"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_stes"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_attachement": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.attachement": {
+			          "Target": {
+			            "Entity": "Sheet1_3.attachement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.attachement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_attachements"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_nom": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.nom": {
+			          "Target": {
+			            "Entity": "Sheet1_3.nom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.nom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_nom"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_prénom": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.prénom": {
+			          "Target": {
+			            "Entity": "Sheet1_3.prénom"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.prénom"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_prénoms"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_chien": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.chien": {
+			          "Target": {
+			            "Entity": "Sheet1_3.chien"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.chien"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_chiens"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_heure_contact_PC": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.heure_contact_PC": {
+			          "Target": {
+			            "Entity": "Sheet1_3.heure_contact_PC"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.heure_contact_PC"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_heure_contact_PCs"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_num_fiche": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.num_fiche": {
+			          "Target": {
+			            "Entity": "Sheet1_3.num_fiche"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.num_fiche"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_num_fiches"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_ligne": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.ligne": {
+			          "Target": {
+			            "Entity": "Sheet1_3.ligne"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.ligne"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_lignes"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_station": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.station": {
+			          "Target": {
+			            "Entity": "Sheet1_3.station"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.station"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_stations"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_type_coli": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.type_coli": {
+			          "Target": {
+			            "Entity": "Sheet1_3.type_coli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.type_coli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_type_coli"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_appel_sur_place": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.appel_sur_place": {
+			          "Target": {
+			            "Entity": "Sheet1_3.appel_sur_place"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.appel_sur_place"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_appel_sur_places"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_localisation_coli": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.localisation_coli": {
+			          "Target": {
+			            "Entity": "Sheet1_3.localisation_coli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.localisation_coli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_localisation_coli"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_olfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.olfaction": {
+			          "Target": {
+			            "Entity": "Sheet1_3.olfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.olfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_olfaction"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_résultat_olfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.résultat_olfaction": {
+			          "Target": {
+			            "Entity": "Sheet1_3.résultat_olfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.résultat_olfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_résultat_olfaction"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_commentaire": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.commentaire": {
+			          "Target": {
+			            "Entity": "Sheet1_3.commentaire"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.commentaire"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_commentaires"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_heure_annulation": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.heure_annulation": {
+			          "Target": {
+			            "Entity": "Sheet1_3.heure_annulation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.heure_annulation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_heure_annulations"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_has_cause_annulation": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3": {
+			          "Target": {
+			            "Entity": "Sheet1_3"
+			          }
+			        },
+			        "Sheet1_3.cause_annulation": {
+			          "Target": {
+			            "Entity": "Sheet1_3.cause_annulation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.cause_annulation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Sheet1_3_have_cause_annulations"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_has_hiérarchie_de_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date"
+			          }
+			        },
+			        "Sheet1_3.date.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.hiérarchie_de_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.hiérarchie_de_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_hiérarchie_de_dates"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_hiérarchie_de_date_has_Sheet1_3_date_année": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.hiérarchie_de_date"
+			          }
+			        },
+			        "Sheet1_3.date.année": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_années"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_hiérarchie_de_date_has_Sheet1_3_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.hiérarchie_de_date"
+			          }
+			        },
+			        "Sheet1_3.date.trimestre": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_hiérarchie_de_date_has_Sheet1_3_date_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.hiérarchie_de_date"
+			          }
+			        },
+			        "Sheet1_3.date.mois": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_moises"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_hiérarchie_de_date_has_Sheet1_3_date_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.hiérarchie_de_date": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.hiérarchie_de_date"
+			          }
+			        },
+			        "Sheet1_3.date.jour": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.hiérarchie_de_date"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hiérarchie_de_dates_have_jour"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_année_has_Sheet1_3_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.année": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.année"
+			          }
+			        },
+			        "Sheet1_3.date.trimestre": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.année"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "années_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_années"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "Sheet1_3.date.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_années"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_trimestre_has_Sheet1_3_date_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.trimestre": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.trimestre"
+			          }
+			        },
+			        "Sheet1_3.date.mois": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_moises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.mois"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.mois"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "Sheet1_3.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "Sheet1_3_date_mois_has_Sheet1_3_date_jour": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1 (3)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "Sheet1_3.date.mois": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.mois"
+			          }
+			        },
+			        "Sheet1_3.date.jour": {
+			          "Target": {
+			            "Entity": "Sheet1_3.date.jour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.mois"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.jour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_jour"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.jour"
+			            },
+			            "Object": {
+			              "Role": "Sheet1_3.date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_have_moises"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "Sheet1_3.date.jour"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "Sheet1_3.date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jour_are_in_moises"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
