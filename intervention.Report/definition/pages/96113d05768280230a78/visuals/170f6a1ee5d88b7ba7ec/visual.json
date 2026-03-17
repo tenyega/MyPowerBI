@@ -1,0 +1,287 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "170f6a1ee5d88b7ba7ec",
+  "position": {
+    "x": 953.75,
+    "y": 72.5,
+    "z": 4001,
+    "height": 595,
+    "width": 305,
+    "tabOrder": 4001
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "📉 Analyse des Incidents et État du Réseau",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ce tableau de bord permet de surveiller la fluidité du réseau et la réactivité des équipes sur le terrain.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "🚉 Localisation des Incidents",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Top Stations :",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " Les stations ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Rue du Bac",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " et ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Saint-Jacques",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " enregistrent le plus grand nombre d'incidents signalés.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Volume par Attachement :",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " Les interventions sont massivement concentrées sur les secteurs de ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Denfert Rochereau",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " et ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "Châtelet-les Halles",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": ", confirmant une charge opérationnelle plus dense sur ces pôles.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "🚦 État de la Colonne (Trafic)",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Le graphique circulaire indique que ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "81,95%",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " du réseau est en état ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "\"Perturbé\"",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": ", contre seulement ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "18,05%",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " en état ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "\"Normal\"",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": ". Cela suggère une période de forte activité ou des conditions d'exploitation complexes sur la période analysée.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "📅 Évolution Temporelle",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La courbe montre une fluctuation constante du nombre d'incidents quotidiens entre 2022 et 2024. On note une ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": "tendance à la hausse des pics d'incidents",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  },
+                  {
+                    "value": " sur la dernière année, nécessitant une attention particulière sur les ressources allouées.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

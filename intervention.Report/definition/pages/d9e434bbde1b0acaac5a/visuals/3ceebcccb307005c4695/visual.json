@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "216b2c6b0015b76906e1",
+  "name": "3ceebcccb307005c4695",
   "position": {
-    "x": 54,
-    "y": 397,
-    "z": 3001,
-    "height": 323,
-    "width": 451,
-    "tabOrder": 3001
+    "x": 10,
+    "y": 426.25,
+    "z": 1000,
+    "height": 293.75,
+    "width": 457.5,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "lineChart",
@@ -23,11 +23,11 @@
                       "Entity": "Sheet1"
                     }
                   },
-                  "Property": "Station"
+                  "Property": "Attachement"
                 }
               },
-              "queryRef": "Sheet1.Station",
-              "nativeQueryRef": "Station",
+              "queryRef": "Sheet1 (3).Attachement",
+              "nativeQueryRef": "Attachement",
               "active": true
             }
           ]
@@ -44,15 +44,14 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "ID"
+                      "Property": "Num fiche"
                     }
                   },
                   "Function": 5
                 }
               },
-              "queryRef": "CountNonNull(Sheet1.ID)",
-              "nativeQueryRef": "Nombre d'intervention",
-              "displayName": "Nombre d'intervention"
+              "queryRef": "CountNonNull(Sheet1 (3).Num fiche)",
+              "nativeQueryRef": "Nombre de Num fiche"
             }
           ]
         }
@@ -69,7 +68,7 @@
                         "Entity": "Sheet1"
                       }
                     },
-                    "Property": "ID"
+                    "Property": "Num fiche"
                   }
                 },
                 "Function": 5

@@ -1097,72 +1097,6 @@ cultureInfo fr-FR
 			    }
 			  },
 			  "Relationships": {
-			    "sheet_1_date_trimestre_has_sheet_1_date_mois": {
-			      "Binding": {
-			        "ConceptualEntity": "Sheet1"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "sheet_1.date.trimestre": {
-			          "Target": {
-			            "Entity": "sheet_1.date.trimestre"
-			          }
-			        },
-			        "sheet_1.date.mois": {
-			          "Target": {
-			            "Entity": "sheet_1.date.mois"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "sheet_1.date.trimestre"
-			            },
-			            "Object": {
-			              "Role": "sheet_1.date.mois"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "trimestres_have_moises"
-			        },
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "sheet_1.date.mois"
-			            },
-			            "Object": {
-			              "Role": "sheet_1.date.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "moises_have_trimestres"
-			        },
-			        {
-			          "Preposition": {
-			            "Subject": {
-			              "Role": "sheet_1.date.mois"
-			            },
-			            "Prepositions": [
-			              {
-			                "in": {
-			                  "State": "Generated"
-			                }
-			              }
-			            ],
-			            "Object": {
-			              "Role": "sheet_1.date.trimestre"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "moises_are_in_trimestres"
-			        }
-			      ]
-			    },
 			    "sheet_1_date_année_has_sheet_1_date_trimestre": {
 			      "Binding": {
 			        "ConceptualEntity": "Sheet1"
@@ -2097,6 +2031,72 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "ID_are_names_IDs_of_sheet_1"
+			        }
+			      ]
+			    },
+			    "sheet_1_date_trimestre_has_sheet_1_date_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Sheet1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sheet_1.date.trimestre": {
+			          "Target": {
+			            "Entity": "sheet_1.date.trimestre"
+			          }
+			        },
+			        "sheet_1.date.mois": {
+			          "Target": {
+			            "Entity": "sheet_1.date.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_moises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sheet_1.date.mois"
+			            },
+			            "Object": {
+			              "Role": "sheet_1.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "sheet_1.date.mois"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "sheet_1.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moises_are_in_trimestres"
 			        }
 			      ]
 			    },

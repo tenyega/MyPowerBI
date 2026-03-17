@@ -1,0 +1,249 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "fcdefb880409826d3ed8",
+  "position": {
+    "x": 660,
+    "y": 0,
+    "z": 1001,
+    "height": 720,
+    "width": 620,
+    "tabOrder": 1001
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "🔍"
+                  },
+                  {
+                    "value": " Analyse des Localisations et Résultats d'Olfaction",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ce volet du rapport détaille l'emplacement des interventions et l'efficacité des levées de doute.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "📍 Répartition Géographique (Localisation colis)",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La majorité des détections s'effectuent au cœur de l'infrastructure de transport :",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Rame/Train à quai (48,22%)",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " et ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": "Sur le quai (33,73%)",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " représentent plus de ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": "80% des interventions",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": ".",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Les zones de flux comme les ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": "Plateformes d'échange",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": ", les ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": "Accès",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " et les ",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": "Couloirs",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " constituent le reste des localisations, avec un volume nettement inférieur.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "🐕 Résultats des Olfactions",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Le graphique en aires illustre l'issue des contrôles effectués :",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Non marquage :",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " La grande majorité des interventions se solde par un \"Non marquage\", ce qui est un indicateur de sécurité positive.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Marquage / Douteux :",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  },
+                  {
+                    "value": " Les cas de \"Marquage\" ou de résultats \"Douteux\" sont extrêmement rares par rapport au volume total, permettant une levée de doute rapide sur la majorité des colis suspects.",
+                    "textStyle": {
+                      "fontFamily": "Calibri",
+                      "fontSize": "18pt"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
