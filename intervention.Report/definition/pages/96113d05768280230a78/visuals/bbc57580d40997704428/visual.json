@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "4f76343803819341c5c8",
+  "name": "bbc57580d40997704428",
   "position": {
-    "x": 682,
+    "x": 9.78266061619298,
     "y": 0,
-    "z": 1000,
-    "height": 671,
-    "width": 598,
-    "tabOrder": 1000
+    "z": 0,
+    "height": 359.51277764509194,
+    "width": 486.68736565560067,
+    "tabOrder": 0
   },
   "visual": {
-    "visualType": "ribbonChart",
+    "visualType": "clusteredColumnChart",
     "query": {
       "queryState": {
         "Category": {
@@ -23,11 +23,11 @@
                       "Entity": "Sheet1"
                     }
                   },
-                  "Property": "Résultat olfaction"
+                  "Property": "Station"
                 }
               },
-              "queryRef": "Sheet1 (3).Résultat olfaction",
-              "nativeQueryRef": "Nombre de Résultat olfaction",
+              "queryRef": "Sheet1.Station",
+              "nativeQueryRef": "Station",
               "active": true
             }
           ]
@@ -44,14 +44,15 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "Olfaction"
+                      "Property": "ID"
                     }
                   },
                   "Function": 5
                 }
               },
-              "queryRef": "CountNonNull(Sheet1 (3).Olfaction)",
-              "nativeQueryRef": "Nombre de Olfaction"
+              "queryRef": "CountNonNull(Sheet1.ID)",
+              "nativeQueryRef": "Nombre d'incident",
+              "displayName": "Nombre d'incident"
             }
           ]
         }
@@ -68,7 +69,7 @@
                         "Entity": "Sheet1"
                       }
                     },
-                    "Property": "Olfaction"
+                    "Property": "ID"
                   }
                 },
                 "Function": 5

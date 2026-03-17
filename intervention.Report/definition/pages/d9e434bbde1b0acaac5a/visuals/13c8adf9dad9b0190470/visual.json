@@ -24,7 +24,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -50,7 +50,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -76,7 +76,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -102,7 +102,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -130,7 +130,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Sheet1 (3)"
+                          "Entity": "Sheet1"
                         }
                       },
                       "Property": "Localisation colis"

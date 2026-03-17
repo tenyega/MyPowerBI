@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "3ceebcccb307005c4695",
+  "name": "216b2c6b0015b76906e1",
   "position": {
-    "x": 81.9297826606162,
-    "y": 412.09457845712922,
-    "z": 1000,
-    "height": 294.70265106281346,
-    "width": 495.24719369476952,
-    "tabOrder": 1000
+    "x": 54,
+    "y": 397,
+    "z": 3001,
+    "height": 323,
+    "width": 451,
+    "tabOrder": 3001
   },
   "visual": {
     "visualType": "lineChart",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
-                  "Property": "Attachement"
+                  "Property": "Station"
                 }
               },
-              "queryRef": "Sheet1 (3).Attachement",
-              "nativeQueryRef": "Attachement",
+              "queryRef": "Sheet1.Station",
+              "nativeQueryRef": "Station",
               "active": true
             }
           ]
@@ -41,17 +41,18 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Sheet1 (3)"
+                          "Entity": "Sheet1"
                         }
                       },
-                      "Property": "Num fiche"
+                      "Property": "ID"
                     }
                   },
                   "Function": 5
                 }
               },
-              "queryRef": "CountNonNull(Sheet1 (3).Num fiche)",
-              "nativeQueryRef": "Nombre de Num fiche"
+              "queryRef": "CountNonNull(Sheet1.ID)",
+              "nativeQueryRef": "Nombre d'intervention",
+              "displayName": "Nombre d'intervention"
             }
           ]
         }
@@ -65,10 +66,10 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Sheet1 (3)"
+                        "Entity": "Sheet1"
                       }
                     },
-                    "Property": "Num fiche"
+                    "Property": "ID"
                   }
                 },
                 "Function": 5

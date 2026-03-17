@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Attachement"
@@ -41,7 +41,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Sheet1 (3)"
+                          "Entity": "Sheet1"
                         }
                       },
                       "Property": "Ligne"
@@ -63,7 +63,7 @@
               "Column": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "Sheet1 (3)"
+                    "Entity": "Sheet1"
                   }
                 },
                 "Property": "Attachement"

@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "4f76343803819341c5c8",
+  "name": "f8d7b255d63bc907d694",
   "position": {
-    "x": 682,
+    "x": 625.5,
     "y": 0,
-    "z": 1000,
-    "height": 671,
-    "width": 598,
-    "tabOrder": 1000
+    "z": 2000,
+    "height": 360,
+    "width": 487,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "ribbonChart",
+    "visualType": "pieChart",
     "query": {
       "queryState": {
         "Category": {
@@ -23,11 +23,11 @@
                       "Entity": "Sheet1"
                     }
                   },
-                  "Property": "Résultat olfaction"
+                  "Property": "Colonne"
                 }
               },
-              "queryRef": "Sheet1 (3).Résultat olfaction",
-              "nativeQueryRef": "Nombre de Résultat olfaction",
+              "queryRef": "Sheet1.Colonne",
+              "nativeQueryRef": "Colonne",
               "active": true
             }
           ]
@@ -44,14 +44,14 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "Olfaction"
+                      "Property": "Localisation colis"
                     }
                   },
                   "Function": 5
                 }
               },
-              "queryRef": "CountNonNull(Sheet1 (3).Olfaction)",
-              "nativeQueryRef": "Nombre de Olfaction"
+              "queryRef": "CountNonNull(Sheet1.Localisation colis)",
+              "nativeQueryRef": "Localisation colis"
             }
           ]
         }
@@ -68,7 +68,7 @@
                         "Entity": "Sheet1"
                       }
                     },
-                    "Property": "Olfaction"
+                    "Property": "Localisation colis"
                   }
                 },
                 "Function": 5

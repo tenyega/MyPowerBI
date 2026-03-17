@@ -1,4 +1,4 @@
-table 'Sheet1 (3)'
+table Sheet1
 	lineageTag: b508b760-6f82-4ff3-afc4-b95bec7a6fe0
 
 	column ID
@@ -182,7 +182,21 @@ table 'Sheet1 (3)'
 
 		annotation SummarizationSetBy = Automatic
 
-	partition 'Sheet1 (3)' = m
+	column Colonne = ```
+			
+			IF(
+			    TRIM('Sheet1'[Localisation colis]) = "Rame/Train à quai" || 
+			    TRIM('Sheet1'[Localisation colis]) = "Sur le quai", 
+			    "Perturbé", 
+			    "Normal"
+			)
+			```
+		lineageTag: 62e02bb0-7de7-45d9-ac3b-a616aaddf422
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sheet1 = m
 		mode: import
 		source =
 				let

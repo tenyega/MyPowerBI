@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "4f76343803819341c5c8",
+  "name": "9bdef3b3a5053d38ed06",
   "position": {
-    "x": 682,
-    "y": 0,
+    "x": 9.78266061619298,
+    "y": 370.51827083830904,
     "z": 1000,
-    "height": 671,
-    "width": 598,
+    "height": 349.730117028899,
+    "width": 709.24289467399092,
     "tabOrder": 1000
   },
   "visual": {
-    "visualType": "ribbonChart",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
         "Category": {
@@ -23,12 +23,13 @@
                       "Entity": "Sheet1"
                     }
                   },
-                  "Property": "Résultat olfaction"
+                  "Property": "Date"
                 }
               },
-              "queryRef": "Sheet1 (3).Résultat olfaction",
-              "nativeQueryRef": "Nombre de Résultat olfaction",
-              "active": true
+              "queryRef": "Sheet1.Date",
+              "nativeQueryRef": "Année",
+              "active": true,
+              "displayName": "Année"
             }
           ]
         },
@@ -44,14 +45,15 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "Olfaction"
+                      "Property": "ID"
                     }
                   },
                   "Function": 5
                 }
               },
-              "queryRef": "CountNonNull(Sheet1 (3).Olfaction)",
-              "nativeQueryRef": "Nombre de Olfaction"
+              "queryRef": "CountNonNull(Sheet1.ID)",
+              "nativeQueryRef": "Nombre d'incident",
+              "displayName": "Nombre d'incident"
             }
           ]
         }
@@ -60,21 +62,16 @@
         "sort": [
           {
             "field": {
-              "Aggregation": {
+              "Column": {
                 "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "Sheet1"
-                      }
-                    },
-                    "Property": "Olfaction"
+                  "SourceRef": {
+                    "Entity": "Sheet1"
                   }
                 },
-                "Function": 5
+                "Property": "Date"
               }
             },
-            "direction": "Descending"
+            "direction": "Ascending"
           }
         ],
         "isDefaultSort": true

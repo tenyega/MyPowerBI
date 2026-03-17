@@ -24,7 +24,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -49,7 +49,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -74,7 +74,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -99,7 +99,7 @@
                         "PropertyVariationSource": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "Sheet1 (3)"
+                              "Entity": "Sheet1"
                             }
                           },
                           "Name": "Variation",
@@ -120,7 +120,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Nom"
@@ -134,7 +134,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Prénom"
@@ -148,7 +148,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Station"
@@ -162,7 +162,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Heure"
@@ -176,7 +176,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Chien"
@@ -190,7 +190,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Commentaire"
@@ -204,7 +204,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Num fiche"
@@ -218,7 +218,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Résultat olfaction"
@@ -232,7 +232,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Ste"
@@ -246,7 +246,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Type colis"
@@ -260,7 +260,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1 (3)"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "Olfaction"
@@ -268,6 +268,20 @@
               },
               "queryRef": "Sheet1 (3).Olfaction",
               "nativeQueryRef": "Olfaction"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1"
+                    }
+                  },
+                  "Property": "Localisation colis"
+                }
+              },
+              "queryRef": "Sheet1.Localisation colis",
+              "nativeQueryRef": "Localisation colis"
             }
           ]
         }
@@ -276,24 +290,13 @@
         "sort": [
           {
             "field": {
-              "HierarchyLevel": {
+              "Column": {
                 "Expression": {
-                  "Hierarchy": {
-                    "Expression": {
-                      "PropertyVariationSource": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "Sheet1 (3)"
-                          }
-                        },
-                        "Name": "Variation",
-                        "Property": "Date"
-                      }
-                    },
-                    "Hierarchy": "Hiérarchie de dates"
+                  "SourceRef": {
+                    "Entity": "Sheet1"
                   }
                 },
-                "Level": "Année"
+                "Property": "Localisation colis"
               }
             },
             "direction": "Ascending"
